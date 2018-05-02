@@ -22,9 +22,9 @@ public class Segmento {
 	public float getdistance(){
 		double distance;
 		double c1,c2;
-		c1=p.2getX()-p1.getX();
+		c1=p2.getX()-p1.getX();
 		c2=p1.getY()-p2.getY();
-		distance=Math.sqrt(Math.pow(c1, c2)+Math.pow(c1,c2));
+		distance=Math.sqrt(Math.pow(c1,2)+Math.pow(c2,2));
 				
 		return distance;
 	}
